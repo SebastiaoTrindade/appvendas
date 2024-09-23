@@ -1,0 +1,24 @@
+<h1>Controle de Caixa</h1>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Saldo Inicial</th>
+      <th>Saldo Final</th>
+      <th>Aberto em</th>
+      <th>Fechado em</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @caixas.each do |caixa| %>
+      <tr>
+        <td><%= number_to_currency(caixa.saldo_inicial) %></td>
+        <td><%= number_to_currency(caixa.saldo_final) %></td>
+        <td><%= caixa.aberto_em %></td>
+        <td><%= caixa.fechado_em %></td>
+        <td><%= link_to 'Detalhes', caixa_path(caixa), class: 'btn btn-info' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

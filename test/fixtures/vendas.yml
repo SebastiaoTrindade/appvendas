@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cliente: one
+  caixa: one
+  data_venda: 2024-09-23 15:31:48
+  valor_total: 
+  valor_total: 
+
+two:
+  cliente: two
+  caixa: two
+  data_venda: 2024-09-23 15:31:48
+  valor_total: 
+  valor_total: 

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  caixa: one
+  tipo_movimentacao: MyString
+  valor: 
+  valor: 
+  descricao: MyText
+
+two:
+  caixa: two
+  tipo_movimentacao: MyString
+  valor: 
+  valor: 
+  descricao: MyText

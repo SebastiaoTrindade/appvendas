@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  saldo_inicial: 
+  saldo_inicial: 
+  saldo_final: 
+  saldo_final: 
+  aberto_em: 2024-09-23 15:32:26
+  fechado_em: 2024-09-23 15:32:26
+
+two:
+  saldo_inicial: 
+  saldo_inicial: 
+  saldo_final: 
+  saldo_final: 
+  aberto_em: 2024-09-23 15:32:26
+  fechado_em: 2024-09-23 15:32:26

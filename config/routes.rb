@@ -1,0 +1,21 @@
+Rails.application.routes.draw do
+  get 'clientes/index'
+  get 'clientes/new'
+  get 'clientes/create'
+  get 'clientes/edit'
+  get 'clientes/update'
+  get 'clientes/show'
+  get 'caixas/index'
+  get 'caixas/show'
+  get 'vendas/index'
+  get 'vendas/new'
+  get 'vendas/create'
+  get 'vendas/show'
+  get 'produtos/index'
+  get 'produtos/new'
+  get 'produtos/create'
+  get 'produtos/edit'
+  get 'produtos/update'
+  get 'produtos/show'
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end
